@@ -1,0 +1,167 @@
+:root {
+  --bg-color: #f9f3e7;
+  --text-color: #3b2f2f;
+  --header-bg: #bfa14c;
+  --nav-bg: #2d2b4f;
+  --card-bg: #fff8dc;
+  --hover-bg: #4f4c79;
+  --active-link: #e1c56e;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1e1c1c;
+  --text-color: #f0e7d8;
+  --header-bg: #8a6d1d;
+  --nav-bg: #15142b;
+  --card-bg: #2e2a26;
+  --hover-bg: #3b3960;
+  --active-link: #dac26a;
+}
+
+body {
+  margin: 0;
+  font-family: "Amiri", serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  direction: rtl;
+}
+
+.home-container {
+  background-image: url("/public/images/Ancient/egypt-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  background-color: var(--header-bg);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.mode-toggle {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background: none;
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.mode-toggle:hover {
+  color: #e6c200;
+}
+.mode-toggle svg {
+  font-size: 20px;
+}
+.navbar {
+  background-color: var(--nav-bg);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.navbar a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.navbar a:hover {
+  background-color: var(--hover-bg);
+  transform: scale(1.05);
+}
+
+.navbar a:active {
+  background-color: var(--active-link);
+}
+
+.hero {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/e/e3/Karnak_Temple%2C_Luxor%2C_Egypt_%28257911887%29.jpeg")
+    center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.hero h1 {
+  font-size: 3em;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: 2px solid var(--header-bg);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: var(--nav-bg);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* خلفية متحركة */
+.animated-bg {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-45deg, #d4af37, #e6c200, #a47e1b, #cfb53b);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+  opacity: 0.1;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

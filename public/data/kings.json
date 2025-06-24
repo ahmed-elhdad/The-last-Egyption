@@ -1,0 +1,38 @@
+[
+  {
+    "name": "الملك توت عنخ امون",
+    "img": "../images/Ancient/egyptKing1.png"
+  },
+  {
+    "name": "الملكة نفرتيتي",
+    "img": "../images/Ancient/egyptKing2.png"
+  },
+  {
+    "name": "الملك رمسيس الثاني",
+    "img": "../images/Ancient/egyptKing3.png"
+  },
+  {
+    "name": "الملكة كليوباترا",
+    "img": "../images/Ancient/egyptKing4.png"
+  },
+  {
+    "name": "الملك مينا",
+    "img": "../images/Ancient/egyptKing5.png"
+  },
+  {
+    "name": "الملك اوسركاف",
+    "img": "../images/Ancient/egyptKing6.png"
+  },
+  {
+    "name": "الملك خوفو",
+    "img": "../images/Ancient/egyptKing7.png"
+  },
+  {
+    "name": "الملك خفرع",
+    "img": "../images/Ancient/egyptKing8.png"
+  },
+  {
+    "name": "الملك منكورع",
+    "img": "../images/Ancient/egyptKing9.png"
+  }
+]
