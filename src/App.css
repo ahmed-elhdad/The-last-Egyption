@@ -27,7 +27,6 @@ body {
 }
 
 .home-container {
-  background-image: url("/public/images/Ancient/egypt-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -90,8 +89,8 @@ header {
 }
 
 .hero {
-  background: url("https://upload.wikimedia.org/wikipedia/commons/e/e3/Karnak_Temple%2C_Luxor%2C_Egypt_%28257911887%29.jpeg")
-    center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
   height: 60vh;
   display: flex;
   align-items: center;
@@ -164,4 +163,8 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+
+.tootAnkhAmon {
+  background: url("../public/images/Ancient/egyptKing1.png");
 }

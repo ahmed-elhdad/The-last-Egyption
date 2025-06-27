@@ -1,22 +1,179 @@
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.3); /* شفافية 30% */
-  z-index: 0;
+.bg-image-tootAnkhAmon {
+  background-image: url("../public/images/Ancient/egyptKing1.png");
+  background-size: cover;
+  background-position: center;
 }
 
-.home-container > * {
-  position: relative;
-  z-index: 1;
+.bg-image-nevertety {
+  background-image: url("../public/images/Ancient/egyptKing2.png");
+  background-size: cover;
+  background-position: center;
 }
 
-.home-container::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.3); /* طبقة خفيفة لعتمة الصورة */
-  z-index: -1;
+.bg-image-ramses {
+  background-image: url("../public/images/Ancient/egyptKing3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-kelopatra {
+  background-image: url("../public/images/Ancient/egyptKing4.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-mina {
+  background-image: url("../public/images/Ancient/egyptKing5.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-oserkaf {
+  background-image: url("../public/images/Ancient/egyptKing6.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-khofo {
+  background-image: url("../public/images/Ancient/egyptKing7.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-khafraa {
+  background-image: url("../public/images/Ancient/egyptKing8.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-mankaure {
+  background-image: url("../public/images/Ancient/egyptKing9.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-pyramids1 {
+  background-image: url("../public/images/Ancient/pyramids1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-pyramids2 {
+  background-image: url("../public/images/Ancient/pyramids2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-pyramids3 {
+  background-image: url("../public/images/Ancient/pyramids3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-pyramids4 {
+  background-image: url("../public/images/Ancient/Pyramids4.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-camp1 {
+  background-image: url("../public/images/Camps/camp1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-camp2 {
+  background-image: url("../public/images/Camps/camp2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-camp3 {
+  background-image: url("../public/images/Camps/camp3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-camp4 {
+  background-image: url("../public/images/Camps/camp4.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-coralReefs1 {
+  background-image: url("../public/images/coralReefs1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-coralReefs2 {
+  background-image: url("../public/images/coralReefs2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-coralReefs3 {
+  background-image: url("../public/images/coralReefs3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-airPalon1 {
+  background-image: url("../public/images/airPalon1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-airPalon2 {
+  background-image: url("../public/images/airPalon2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-maabed1 {
+  background-image: url("../public/images/maabed1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-maabed2 {
+  background-image: url("../public/images/maabed2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-maabed3 {
+  background-image: url("../public/images/maabed3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-maabed4 {
+  background-image: url("../public/images/maabed4.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-maabed5 {
+  background-image: url("../public/images/maabed5.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-image1 {
+  background-image: url("../public/images/image1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-image2 {
+  background-image: url("../public/images/water/image2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-image3 {
+  background-image: url("../public/images/image3.png");
+  background-size: cover;
+  background-position: center;
 }
