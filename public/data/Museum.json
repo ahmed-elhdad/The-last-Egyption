@@ -1,0 +1,68 @@
+[
+  {
+    "title": "المتحف المصري",
+    "description": "أكبر متحف حضارة منفردة في العالم يطل على أهرامات الجيزة، ويضم كنوز توت عنخ آمون وأكثر من 100,000 قطعة .",
+    "nickName": "GEM",
+    "img": "../images/musuems/egyptionMusuem.jpg"
+  },
+  {
+    "title": "لمتحف القومي للحضارة المصرية",
+    "description": " يغطّي التاريخ من عصور ما قبل التاريخ حتى العصر الحديث، ويعرض 22 مومياء ملكي",
+    "nickName": "NMEC",
+    "img": "../images/musuems/NMEC.jpg"
+  },
+  {
+    "title": "متحف الفن الإسلامي",
+    "description": " يحتوي على أكثر من 100,000 قطعة فن إسلامي من مختلف العصور",
+    "nickName": "Museum of Islamic Art",
+    "img": "../images/musuems/MuseumOfIslamicArt.jpg"
+  },
+  {
+    "title": "المتحف القبطي",
+    "description": "أكبر مجموعة من الفن القبطي المسيحي، تأسس 1908",
+    "nickName": "Coptic Museum",
+    "img": "../images/musuems/CopticMuseum.jpg"
+  },
+  {
+    "title": "متحف الفن المصري الحديث",
+    "description": "يضم 13,000 قطعة فنية مصرية معاصرة من العام 1927 حتى الآن",
+    "nickName": "Museum of Modern Egyptian Art",
+    "img":"../images/musuems/MuseumOfModernEgyptianArt.jpg"
+  },
+  {
+    "title": "متحف غاير أندرسون",
+    "description":"منزل أثري يعود للقرن 16–17 مليء بالفن الإسلامي الداخلي",
+    "nickName": "Gayer-Anderson Museum",
+    "img": "../images/musuems/musuem.jpg"
+  },
+  {
+    "title": "المتحف اليوناني الروماني",
+    "description": " يضم أكثر من 40,000 قطعة أثرية من العصرين الهلنستي والروماني",
+    "nickName": "Graeco-Roman Museum",
+    "img": "../images/musuems/Graeco‑RomanMuseum.jpg"
+  },
+  {
+    "title": "المتحف الوطني بالإسكندرية",
+    "description": "يقع في قصر إيطالي قديم، ويعرض تحفاً فرعونية وقبطية ورومانية .",
+    "nickName": "Alexandria National Museum",
+    "img": "../images/musuems/AlexandriaNationalMuseum.jpg"
+  },
+  {
+    "title": "المتحف الملكي للمجوهرات",
+    "description": "معروضات مجوهرات عائلة محمد علي داخل قصر الأميرة فاطمة الزهراء’ .",
+    "nickName": "Royal Jewelry Museum",
+    "img": "../images/musuems/RoyalJewelrMuseum.jpg"
+  },
+  {
+    "title":"متحف النوبة",
+    "description":" يعرض تاريخ وثقافة النوبة، من العصور القديمة حتى الوقت الحاضر .",
+    "nickName":"Nubian Museum",
+    "img":"../images/musuems/NubianMuseum.jpg"
+  },
+  {
+    "title":"متحف الأقصر ",
+    "description":"ينظم مجموعة مختارة من القطع الرفيعة بجوار معابد الأقصر .",
+    "nickName":"Luxor Museum",
+    "img":"../images/musuems/LuxorMuseum.jpg"
+  }
+]

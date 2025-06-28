@@ -16,6 +16,9 @@
   --card-bg: #2e2a26;
   --hover-bg: #3b3960;
   --active-link: #dac26a;
+  footer {
+    background: url("../public/images/footer/dark_mode.svg");
+  }
 }
 
 body {
@@ -34,6 +37,7 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 header {
   background-color: var(--header-bg);
   padding: 20px;
@@ -93,18 +97,24 @@ header {
   background-size: contain;
   height: 60vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
   text-shadow: 2px 2px 5px #000;
+  height: 700px;
 }
 
 .hero h1 {
   font-size: 3em;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
+  animation: typing 5s ease-out;
+  overflow: hidden;
+  text-wrap: nowrap;
 }
-
+.hero p{
+  font-size: 1.5em;
+  margin-top: 20px;
+}
 .section {
   padding: 40px 20px;
   text-align: center;
@@ -139,32 +149,19 @@ body {
   overflow-x: hidden;
 }
 
-/* خلفية متحركة */
-.animated-bg {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  background: linear-gradient(-45deg, #d4af37, #e6c200, #a47e1b, #cfb53b);
-  background-size: 400% 400%;
-  animation: gradientMove 12s ease infinite;
-  opacity: 0.1;
-}
-
-@keyframes gradientMove {
+@keyframes typing {
   0% {
-    background-position: 0% 50%;
+    width: 0ch;
   }
   50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
+    width: 43ch;
   }
 }
 
-.tootAnkhAmon {
-  background: url("../public/images/Ancient/egyptKing1.png");
+footer {
+  background: url("../public/images/footer/patternpad-2025-06-28-15-51-05.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 360px;
 }
