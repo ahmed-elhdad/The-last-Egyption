@@ -11,7 +11,7 @@ import Museums from "./components/5-Museums";
 import Maabed from "./components/6-Maabed";
 import Images from "./components/7-Images";
 import Footer from "./components/8-Footer";
-
+import ButtonToTop from "./components/9-buttonToTop";
 export default function Home() {
   return (
     <div className="home-container">
@@ -23,6 +23,7 @@ export default function Home() {
       <Maabed />
       <Images />
       <Footer />
+      <ButtonToTop />
     </div>
   );
 }

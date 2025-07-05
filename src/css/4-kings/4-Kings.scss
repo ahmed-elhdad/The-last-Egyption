@@ -1,0 +1,19 @@
+@use "../Helpers/variables" as *;
+
+.kings-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  user-select: none;
+  h2 {
+    font-size: 2rem;
+    padding: 10px;
+
+    color: black;
+  }
+  > div.name::before {
+    height: 1000px;
+    width: 300px;
+    background-color: var(--header-bg);
+  }
+}

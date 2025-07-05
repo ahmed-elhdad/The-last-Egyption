@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import "../css/3-Hero/3-Hero.css";
 function Hero() {
   const [images, setImages] = useState([]);
   const [bgIndex, setBgIndex] = useState(0);

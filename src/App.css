@@ -1,13 +1,3 @@
-:root {
-  --bg-color: #f9f3e7;
-  --text-color: #3b2f2f;
-  --header-bg: #bfa14c;
-  --nav-bg: #2d2b4f;
-  --card-bg: #fff8dc;
-  --hover-bg: #4f4c79;
-  --active-link: #e1c56e;
-}
-
 [data-theme="dark"] {
   --bg-color: #1e1c1c;
   --text-color: #f0e7d8;
@@ -38,83 +28,6 @@ body {
   flex-direction: column;
 }
 
-header {
-  background-color: var(--header-bg);
-  padding: 20px;
-  text-align: center;
-  color: white;
-  position: relative;
-}
-
-.mode-toggle {
-  position: absolute;
-  left: 20px;
-  top: 20px;
-  background: none;
-  padding: 5px 10px;
-  border: none;
-  background-color: transparent;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.5s;
-}
-.mode-toggle:hover {
-  color: #e6c200;
-}
-.mode-toggle svg {
-  font-size: 20px;
-}
-.navbar {
-  background-color: var(--nav-bg);
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 10px 0;
-}
-
-.navbar a {
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-  transition: background-color 0.3s, transform 0.2s;
-}
-
-.navbar a:hover {
-  background-color: var(--hover-bg);
-  transform: scale(1.05);
-}
-
-.navbar a:active {
-  background-color: var(--active-link);
-}
-
-.hero {
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-shadow: 2px 2px 5px #000;
-  height: 700px;
-}
-
-.hero h1 {
-  font-size: 3em;
-  animation: typing 5s ease-out;
-  overflow: hidden;
-  text-wrap: nowrap;
-}
-.hero p {
-  font-size: 1.5em;
-  margin-top: 20px;
-}
 .section {
   padding: 40px 20px;
   text-align: center;
@@ -149,37 +62,6 @@ body {
   overflow-x: hidden;
 }
 
-.kings-container {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  user-select: none;
-}
-.kings-container h2 {
-  font-size: 2rem;
-  padding: 10px;
-
-  color: black;
-}
-.kings-container > div.name::before {
-  height: 1000px;
-  width: 300px;
-  background-color: var(--header-bg);
-}
-.kings-container h2::before {
-}
-.kings-container .king-card {
-}
-div.king-card img {
-}
-@keyframes typing {
-  0% {
-    width: 0ch;
-  }
-  50% {
-    width: 43ch;
-  }
-}
 
 footer {
   background: url("../public/images/footer/patternpad-2025-06-28-15-51-05.svg");

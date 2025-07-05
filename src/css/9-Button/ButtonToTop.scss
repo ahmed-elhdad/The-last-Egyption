@@ -1,0 +1,29 @@
+@use "../Helpers/variables";
+div.button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  button {
+    border-radius: 6px;
+    width: 50px;
+    text-transform: capitalize;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+    text-align: center;
+    height: 50px;
+    background-color: var(--button-bg);
+    border: 1px solid var(--button-bg);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    display: none;
+    &:hover {
+      background-color: var(--active-link);
+      border: 1px solid var(--active-link);
+    }
+  }
+}

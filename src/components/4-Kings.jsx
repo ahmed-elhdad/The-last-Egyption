@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "../css/4-kings/4-Kings.css";
 import "swiper/css";
 import "../styles.css";
 const Kings = () => {

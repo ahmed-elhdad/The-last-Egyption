@@ -1,3 +1,5 @@
+import "../css/2-nav/2-nav.css";
+
 const Nav = () => {
   return (
     <>

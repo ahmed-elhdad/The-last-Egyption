@@ -1,0 +1,37 @@
+:root {
+  --bg-color: #f9f3e7;
+  --text-color: #3b2f2f;
+  --header-bg: #bfa14c;
+  --nav-bg: #2d2b4f;
+  --card-bg: #fff8dc;
+  --hover-bg: #4f4c79;
+  --active-link: #e1c56e;
+  --button-bg: #bfa14c;
+}
+
+header {
+  background-color: var(--header-bg);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+header .mode-toggle {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  background: none;
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+header .mode-toggle svg {
+  font-size: 20px;
+}
+header .mode-toggle:hover {
+  color: #e6c200;
+}/*# sourceMappingURL=1-Header.css.map */

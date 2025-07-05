@@ -1,0 +1,29 @@
+:root {
+  --bg-color: #f9f3e7;
+  --text-color: #3b2f2f;
+  --header-bg: #bfa14c;
+  --nav-bg: #2d2b4f;
+  --card-bg: #fff8dc;
+  --hover-bg: #4f4c79;
+  --active-link: #e1c56e;
+  --button-bg: #bfa14c;
+}
+
+.kings-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.kings-container h2 {
+  font-size: 2rem;
+  padding: 10px;
+  color: black;
+}
+.kings-container > div.name::before {
+  height: 1000px;
+  width: 300px;
+  background-color: var(--header-bg);
+}/*# sourceMappingURL=4-Kings.css.map */

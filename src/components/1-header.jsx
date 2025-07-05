@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState, useEffect } from "react";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
+import "../css/1-Header/1-Header.css";
 function Header() {
   const [mode, setMode] = useState("light");
 

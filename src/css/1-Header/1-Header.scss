@@ -1,0 +1,28 @@
+@use "../Helpers/variables" as *;
+
+header {
+  background-color: var(--header-bg);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+  .mode-toggle {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: none;
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+    svg {
+      font-size: 20px;
+    }
+    &:hover {
+      color: #e6c200;
+    }
+  }
+}

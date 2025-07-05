@@ -1,0 +1,34 @@
+:root {
+  --bg-color: #f9f3e7;
+  --text-color: #3b2f2f;
+  --header-bg: #bfa14c;
+  --nav-bg: #2d2b4f;
+  --card-bg: #fff8dc;
+  --hover-bg: #4f4c79;
+  --active-link: #e1c56e;
+  --button-bg: #bfa14c;
+}
+
+.navbar {
+  background-color: var(--nav-bg);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+}
+.navbar a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+.navbar a:hover {
+  background-color: var(--hover-bg);
+  transform: scale(1.05);
+}
+.navbar a:active {
+  background-color: var(--active-link);
+}/*# sourceMappingURL=2-nav.css.map */

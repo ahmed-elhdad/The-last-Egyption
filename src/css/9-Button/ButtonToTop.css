@@ -1,0 +1,39 @@
+:root {
+  --bg-color: #f9f3e7;
+  --text-color: #3b2f2f;
+  --header-bg: #bfa14c;
+  --nav-bg: #2d2b4f;
+  --card-bg: #fff8dc;
+  --hover-bg: #4f4c79;
+  --active-link: #e1c56e;
+  --button-bg: #bfa14c;
+}
+
+div.button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+div.button button {
+  border-radius: 6px;
+  width: 50px;
+  text-transform: capitalize;
+  letter-spacing: 1.1px;
+  cursor: pointer;
+  text-align: center;
+  height: 50px;
+  background-color: var(--button-bg);
+  border: 1px solid var(--button-bg);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  display: none;
+}
+div.button button:hover {
+  background-color: var(--active-link);
+  border: 1px solid var(--active-link);
+}/*# sourceMappingURL=ButtonToTop.css.map */
