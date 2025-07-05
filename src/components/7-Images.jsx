@@ -1,5 +1,9 @@
-import React, { useEffect, useState } from "react";
+"use client ";
 
+import React, { useEffect, useState, userRef } from "react";
+import "swiper/css";
+import "../styles.css";
+import { Swiper, SwiperSlide } from "swiper/react";
 function Images() {
   const [images, setImages] = useState([]);
   useEffect(() => {
@@ -17,13 +21,14 @@ function Images() {
   return (
     <div className="images-container" id="images">
       <h2>معرض الصور</h2>
-      <div className="images-items">
-        {images.map((image) => (
-          <div>
+      <div className="images-items"></div>
+      <Swiper className="mySwiper">
+        <SwiperSlide>
+          {images.map((image) => (
             <img src={image.img} alt="" />
-          </div>
-        ))}
-      </div>
+          ))}
+        </SwiperSlide>
+      </Swiper>
     </div>
   );
 }
